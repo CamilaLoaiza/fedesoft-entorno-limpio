@@ -8,7 +8,8 @@
     "start": "ionic-app-scripts serve",
     "clean": "ionic-app-scripts clean",
     "build": "ionic-app-scripts build",
-    "lint": "ionic-app-scripts lint"
+    "lint": "ionic-app-scripts lint",
+    "start:s" : "node server.js"
   },
   "dependencies": {
     "@angular/animations": "5.2.11",
@@ -31,11 +32,12 @@
     "zone.js": "0.8.26",
     "@ionic-native/camera": "4.3.3",
     "@ngx-translate/core": "8.0.0",
-    "@ngx-translate/http-loader": "^2.0.0"
-  },
-  "devDependencies": {
+    "@ngx-translate/http-loader": "^2.0.0",
     "@ionic/app-scripts": "3.2.0",
     "typescript": "~2.6.2"
+  },
+  "devDependencies": {
+
   },
   "description": "An Ionic project"
 }
